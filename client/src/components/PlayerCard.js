@@ -6,8 +6,8 @@ class PlayerCard extends React.Component {
     render() {
         return (
             <Card>
-                <h1>{this.props.player.name}</h1>    
-                <p>{this.props.player.country}</p>
+                <h1><span>Name:</span> {this.props.player.name}</h1>    
+                <p><span>Country:</span> {this.props.player.country}</p>
             </Card>
         )
     }
